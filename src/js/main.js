@@ -1,22 +1,19 @@
-$(document).ready(function(e){
-    $('#clickMe').click(function(){
+$(function () {
+    $('#start').click(function () {
         annyang.start();
+
+        if (annyang) {
+            var commands = {
+                'what is art': function () {
+                    $('#start').slideUp();
+                    $(".answer-1").typed({
+                        strings: ["Good question.", "Art is the highest expression of human intellect."],
+                        typeSpeed: 0
+                    });
+                }
+            };
+
+            annyang.addCommands(commands);
+        }
     });
 });
-
-if (annyang) {
-    var commands = {
-        'what is art': function(e) {
-            $('#clickMe').toggle();
-
-            e.stopPropagation();
-
-            var text = $('.answer').data();
-
-            typeWriter(text, 0);
-
-        }
-    };
-
-    annyang.addCommands(commands);
-}
