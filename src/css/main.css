@@ -109,9 +109,10 @@ textarea {
     cursor: pointer;
 }
 
-.answer-1 {
+.answers {
     font-family: 'Cutive Mono', serif;
     color: white;
+    display: block;
     font-size: 44px;
     text-align: center;
 }
