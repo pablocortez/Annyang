@@ -105,17 +105,33 @@ textarea {
 }
 
 .intro {
+    width: 100%;
+    height: 20%;
     color: white;
-    font-size: 30px;
-    padding: 50px;
+    display: block;
+    font-size: 32px;
+    padding: 40px 20px;
     text-align: center;
-/*    border: 1px solid red;*/
 }
+/*
+
+#hello {
+    display: inline-block;
+}
+*/
 
 .four-questions {
+    width: 100%;
     color: white;
-    font-size: 12px;
-    margin: 0;
+    font-size: 18px;
+    text-align: left;
+    word-wrap: break-all;
+    position: relative;
+}
+
+span {
+    width: 100%;
+    word-wrap: break-word;
 }
 
 .typed-cursor {
