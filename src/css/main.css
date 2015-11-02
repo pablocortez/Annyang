@@ -10,7 +10,8 @@
    ========================================================================== */
 
 html {
-    background: rgba(26, 188, 156, 0.8);
+/*    background: rgba(26, 188, 156, 0.8);*/
+    background: rgb(39, 39, 39);
     color: #222;
     font-size: 1em;
     line-height: 1.4;
@@ -96,25 +97,25 @@ textarea {
 /* ==========================================================================
    My custom styles
    ========================================================================== */
-
 @import url(http://fonts.googleapis.com/css?family=Cutive+Mono);
-#start {
-    font-family: 'Helvetica', serif;
-    font-size: 25px;
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
-    background-color: white;
-    color: #2e2b2b;
-    cursor: pointer;
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+
+* {
+    font-family: 'Monospace';
 }
 
-.answers {
-    font-family: 'Cutive Mono', serif;
+.intro {
     color: white;
-    display: block;
-    font-size: 44px;
+    font-size: 30px;
+    padding: 50px;
     text-align: center;
+/*    border: 1px solid red;*/
+}
+
+.four-questions {
+    color: white;
+    font-size: 12px;
+    margin: 0;
 }
 
 .typed-cursor {
