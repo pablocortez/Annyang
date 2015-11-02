@@ -132,6 +132,7 @@ textarea {
 span {
     width: 100%;
     word-wrap: break-word;
+    float: left;
 }
 
 .typed-cursor {
