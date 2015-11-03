@@ -4,8 +4,7 @@ $(function () {
 
     if (annyang) {
         var commands = {
-            'say hello': function () {
-                $("#hello").slideDown();
+            'say hello': function () {     
                 $("#hello").typed({
                     strings: ["Hello!", "I'm Pablo's creative project for Mrs. Guild's AP Lang class."],
                     typeSpeed: 0
