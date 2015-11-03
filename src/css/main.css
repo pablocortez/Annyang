@@ -113,22 +113,25 @@ textarea {
     text-align: center;
 }
 
+
 .four-questions {
-    width: 100%;
+    width: 100%; height: 400px;
     color: white;
-    font-size: 18px;
+    font-size: 12px;
     text-align: left;
-    word-wrap: break-all;
     position: relative;
 }
 
 .answer {
-    width: 100%;
-    word-wrap: break-word;
-    float: left;
+    display: inline-block;
+    text-align: left;
+/*    overflow-wrap: break-word;*/
+    height: 100%;
 }
 
+
 .typed-cursor {
+    display: inline-block;
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
