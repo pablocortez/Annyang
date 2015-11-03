@@ -125,7 +125,6 @@ textarea {
 .answer {
     display: inline-block;
     text-align: left;
-/*    overflow-wrap: break-word;*/
     height: 100%;
 }
 
