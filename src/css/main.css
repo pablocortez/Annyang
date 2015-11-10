@@ -11,12 +11,16 @@
 
 html {
 /*    background: rgba(26, 188, 156, 0.8);*/
-    background: rgb(39, 39, 39);
-    color: #222;
+    background: url(../img/sanFrancisco.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: black;
     font-size: 1em;
     line-height: 1.4;
 }
-
 
 /*
  * Remove text-shadow in selection highlight:
@@ -99,35 +103,31 @@ textarea {
    ========================================================================== */
 @import url(http://fonts.googleapis.com/css?family=Cutive+Mono);
 @import url(https://fonts.googleapis.com/css?family=Inconsolata);
+@import url(https://fonts.googleapis.com/css?family=Lato);
 
 * {
-    font-family: 'Monospace';
+    color: black;
 }
 
 .intro {
+    font-family: 'Monospace';
     width: 100%;
     height: 20%;
-    color: white;
-    font-size: 22px;
+    font-size: 62px;
     padding: 40px 20px;
     text-align: center;
 }
 
-
 .four-questions {
-    width: 100%; height: 400px;
-    color: white;
-    font-size: 12px;
-    text-align: left;
-    position: relative;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Lato';
 }
 
 .answer {
     display: inline-block;
     text-align: left;
-    height: 100%;
 }
-
 
 .typed-cursor {
     display: inline-block;

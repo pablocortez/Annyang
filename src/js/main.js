@@ -4,9 +4,9 @@ $(function () {
 
     if (annyang) {
         var commands = {
-            'say hello': function () {     
+            'hello': function () {     
                 $("#hello").typed({
-                    strings: ["Hello!", "I'm Pablo's creative project for Mrs. Guild's AP Lang class."],
+                    strings: ["Hi!", "I'm Pablo's creative project for Mrs. Guild's AP Lang class."],
                     typeSpeed: 0
                 });
             },
@@ -29,7 +29,7 @@ $(function () {
                     showCursor: false
                 });
                 $("#answer4").typed({
-                    strings: ["4. Can art change the world? Yes, obviously. It is through artistic means that we have technological developments and scientific advances in our society."],
+                    strings: ["4. Art can change the world. It is through artistic means that we have technological developments and scientific advances in our society."],
                     typeSpeed: 0,
                     showCursor: false
                 });
